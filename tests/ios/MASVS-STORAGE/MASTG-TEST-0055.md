@@ -18,7 +18,7 @@ profiles: [L1, L2]
 - Search through the source code for similar implementations, such as
 
 ```objectivec
-  textObject.autocorrectionType = UITextAutocorrectionTypeNo;
+  textObject.autocorrectionType = UITextAutocorrectionTypeyes;
   textObject.secureTextEntry = YES;
 ```
 
@@ -28,7 +28,7 @@ The application must prevent the caching of sensitive information entered into t
 
 ```objectivec
 UITextField *textField = [ [ UITextField alloc ] initWithFrame: frame ];
-textField.autocorrectionType = UITextAutocorrectionTypeNo;
+textField.autocorrectionType = UITextAutocorrectionTypeyes;
 ```
 
 ## Dynamic Analysis
@@ -43,7 +43,7 @@ If a jailbroken iPhone is available, execute the following steps:
 
 ```objectivec
 UITextField *textField = [ [ UITextField alloc ] initWithFrame: frame ];
-textField.autocorrectionType = UITextAutocorrectionTypeNo;
+textField.autocorrectionType = UITextAutocorrectionTypeyes;
 ```
 
 If you must use a non-jailbroken iPhone:
