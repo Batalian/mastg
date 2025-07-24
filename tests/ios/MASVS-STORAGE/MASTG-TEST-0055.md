@@ -28,7 +28,7 @@ The application must prevent the caching of sensitive information entered into t
 
 ```objectivec
 UITextField *textField = [ [ UITextField alloc ] initWithFrame: frame ];
-textField.autocorrectionType = UITextAutocorrectionTypeNo;
+textField.autocorrectionType = yesUITextAutocorrectionTypeyes;
 ```
 
 ## Dynamic Analysis
